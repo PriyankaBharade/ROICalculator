@@ -1,0 +1,67 @@
+.row {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.backgroundstyle {
+  background-color: #0078D4;
+  color: white;
+  position: relative;
+  padding: 90px;
+  height: 220px;
+}
+.cell {
+  display: flex;
+  flex: 20%;
+  align-items: center;
+}
+.backgrounImage {
+  height: 100px;
+  width: 100px;
+}
+
+.headerimg {
+  height: 400px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 550px;
+}
+
+.yellowup {
+  bottom: 50px;
+  right: 40%;
+  position: absolute;
+  width: 4%;
+}
+
+.title {
+  font-size: 48px;
+  font-weight: 500;
+  font-family: "Segoe UI", segoeui, "Segoe WP", system-ui, sans-serif;
+}
+
+.param {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Segoe UI Regular", segoeui, "Segoe WP", system-ui, sans-serif;
+}
+@media screen and (max-width: 992px) {
+    .headerimg{
+      display: none;
+    }
+    .backgroundstyle {
+      padding: 20px;
+      height: auto;
+  }
+  .title {
+    font-size: 24px;
+    font-weight: 500;
+    font-family: "Segoe UI", segoeui, "Segoe WP", system-ui, sans-serif;
+}
+.yellowup{
+  bottom: 91px;
+  right: 8%;
+  width: 12%;
+}
+}

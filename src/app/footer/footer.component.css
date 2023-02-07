@@ -1,0 +1,54 @@
+.row {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+  }
+  .backgroundstyle {
+    background-color: #0078D4;
+    color: white;
+  }
+  .cell {
+    display: flex;
+    flex: 20%;
+    align-items: center;
+  }
+  .backgrounImage {
+    height: 100px;
+    width: 100px;
+  }
+  .app-btn{
+    background-color: #fff;
+    border: 0;
+    color: #505050;
+    cursor: pointer;
+    font-family: "Segoe UI", segoeui, "Segoe WP", system-ui, sans-serif;
+    font-size: 16px;
+    line-height: 21px;
+    padding: 10px 35px;
+    margin-top: 15px;
+  }
+  .footer{
+    z-index: -1;
+    overflow: hidden;
+    padding: 90px;
+    position: relative;
+  }
+  .firstimg{
+    position: absolute;
+    right: 4%;
+    top: -15px;
+    z-index: -1;
+  }
+  .imgblock{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    position: absolute;
+    right: 4%;
+    bottom: 15px;
+  }
+  @media screen and (max-width: 992px) {
+    .footer {
+      padding: 20px;
+  }
+  }
